@@ -14,7 +14,8 @@ class WickedPdf
   elsif Platform.is_linux?
    include NixPdfRenderer
   else
-   raise "Unable to find Platform"
+   include NixPdfRenderer
+   #raise "Unable to find Platform"
   end
   @@config = {}
   cattr_accessor :config
