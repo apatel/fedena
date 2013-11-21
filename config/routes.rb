@@ -1,4 +1,3 @@
-(in /Users/apatel/RailsProjects/fedena)
 Fedena::Application.routes.draw do
   resources :grading_levels
   resources :ranking_levels do

@@ -2,10 +2,13 @@
 # This preamble is the current preamble for Rails 3 apps; edit as needed.
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.6'
+gem 'rails', '3.1.0'
 
 #source 'http://gemcutter.org'
 gem 'declarative_authorization'
 gem 'rush'
 gem 'i18n'
+gem 'test-unit'
+gem 'rake', '0.8.7'
+gem 'pg'
 
